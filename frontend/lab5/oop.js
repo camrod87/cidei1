@@ -25,16 +25,16 @@ Animal.prototype={
 		console.log("El nombre del animal es"+this.name);
 	},
 	getgenre: function(){
-		console.log("El _ del animal es"+this.genre);
+		console.log("El genero del animal es"+this.genre);
 	},
 	getage: function(){
-		console.log("El _ del animal es"+this.age);
+		console.log("La edad del animal es"+this.age);
 	},
 	getspecies: function(){
-		console.log("El _ del animal es"+this.species);
+		console.log("La especie del animal es"+this.species);
 	},
 	getnumberZoo: function(){
-		console.log("El _ del animal es"+this.zoo);
+		console.log("El numero del zoo del animal es"+this.zoo);
 	},
 	getzooName: function(){
 		console.log("El _ del animal es"+this.zooName);
@@ -69,3 +69,4 @@ Person.prototype = {
 		});
 	}
 }
+
