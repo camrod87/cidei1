@@ -1,0 +1,17 @@
+/**/
+body {
+  background: #575757;
+  font-color: #333333;
+  width: 960px; }
+  body h1 {
+    font-color: red; }
+  body span {
+    color: #00FF55; }
+    body span a {
+      text-size: 20px; }
+  body h2 {
+    color: #778866; }
+  body .aplicarverde {
+    color: #0d9328; }
+  body .aplicarrojo {
+    color: #a2090b; }
