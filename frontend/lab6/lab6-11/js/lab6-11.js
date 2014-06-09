@@ -51,7 +51,7 @@ $(document).ready(function(){
 	$('.city-error').addClass('error');
 	$('.city-error').hide();
 
-	$('#buttons #info').remove();
+	$('#info').hide();
 
 	$('.button').bind('click',function(event){
 		var validate = new Validate();
@@ -170,7 +170,7 @@ $(document).ready(function(){
 			/*$('#buttons').append(
 				'<a id="info" href="#openModal">Ver detalle del pedido</a>'
 			);*/
-			$('#info').css({'display':'intial'});
+			$('#info').css({'display':'initial'});
 
 			$('.inputs').removeClass('error');
 			$('.inputs').addClass('success');

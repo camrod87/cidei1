@@ -1,0 +1,123 @@
+/**/
+@import "_reset.scss";
+@import "_variables";
+@import "_border_mixin";
+*{
+	@include tamanio_caja();
+}
+ 
+h1,h2,h3,h4,h5,h6{
+	color:#333;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+
+/*Header*/
+.header{
+	background-color: #3a3f43;
+	/*border-bottom: 14px;*/
+	@include sombra_caja_header();
+	padding: 22px 0;
+
+}
+
+.logo{
+	background-color: #515558;
+	-webkit-border-radius:3px;
+	-max-border-radius:3px;
+	border-radius: 3px;
+	margin: 0 auto;
+	padding: 5px 0;
+	text-align: center;
+	width: 250px;
+}
+
+.logo h1{
+	color:#fff;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	margin-bottom: 0;
+}
+
+/* Navigation*/
+.nav-menu,
+.portfolio > figure.columns{
+	display: none;
+}
+
+label{
+	color:#3a3f43;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px;
+}
+.nav-menu:checked + label{
+	color: #fff;
+	background-color: #3a3f43;
+	-webkit-border-radius:3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#all:checked ~ .portfolio .all,
+#develop:checked ~ .portfolio .poster,
+#test:checked ~ .portfolio .illustration,
+#languages:checked ~ .portfolio .typography,
+#skills:checked ~ .portfolio .package {
+	display: block;
+}
+
+/*Porfolio*/
+.portfolio{
+	margin-top: 20px;
+}
+
+.portfolio .four.columns{
+	margin-left: 0;
+	margin-right: 0;
+	width: 240px;
+}
+
+.portfolio > figure{
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio > figure img{
+	display: block;
+	max-width: 100%;
+}
+.portfolio figcaption{
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: rgba(58,63,67,.8);
+	padding: 10%;
+
+	@include navegadores_translate();
+
+	@include navegadores_transition();
+
+}
+
+.portfolio figcaption h4{
+	color: #fff;
+}
+
+.portfolio figcaption p{
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.portfolio > figure:hover figcaption{
+	@include navegadores_translate(0);
+}
+
+/*Footer section*/
+.footer{
+	border-top: 1px solid #ccc;
+	margin-top: 28px;
+	padding: 28px 0;
+}
