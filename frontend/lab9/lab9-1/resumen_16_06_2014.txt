@@ -1,0 +1,102 @@
+    1  cd ..
+    2  cd ..
+    3  pwd
+    4  cd xampp/htdocs/cidei1
+    5  ls
+    6  cd frontend
+    7  ls
+    8  cd lab7/lab7-2
+    9  tree lab7-2
+   10  sass --watch sass/styles.scss:css/styles.css
+   11  compass -v
+   12  LS
+   13  CD ..
+   14  cd ..
+   15  ls
+   16  compass create lab7-5
+   17  tree lab7-5
+   18  PWD
+   19  ls
+   20  node
+   21  ls
+   22  cd ..
+   23  ls
+   24  cd lab8
+   25  ls
+   26  cd lab8-1
+   27  ls
+   28  node
+   29  node app.js
+   30  node app.js
+   31  express -v
+   32  npm install -g express-generator
+   33  express -v
+   34  express
+   35  express -V
+   36  cd ..
+   37  cd ..
+   38  pwd
+   39  cd C\xampp\htdocs\cidei1\frontend\lab8
+   40  cd \xampp\htdocs\cidei1\frontend\lab8
+   41  cd xampp/htdocs/cidei1/frontend
+   42  ls
+   43  cd lab8
+   44  ls
+   45  express lab8-4
+   46  cd -ab8-4
+   47  cd lab8-4
+   48  npm install
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd lab8-4
+   53  rm node_modules
+   54  rm -r node_modules
+   55  rm -R node_modules
+   56  ls
+   57  cd node_modules
+   58  npm install
+   59  ls
+   60  node bin/www
+   61  node bin/www
+   62  node bin/www
+   63  pwd
+   64  cd ..
+   65  cd ..
+   66  ls
+   67  pwd
+   68  cd xampp/htdocs/cidei1
+   69  ls
+   70  cd frontend/lab-8
+   71  cd frontend/
+   72  ls
+   73  cd lab8
+   74  ls
+   75  cd lab8-7
+   76  node app.js
+   77  node app.js
+   78  node app.js
+   79  node app.js
+   80  node app.js
+   81  node app.js
+   82  node app.js
+   83  node app.js
+   84  node app.js
+   85  rm -rf node_modules
+   86  cd ..
+   87  cd ..
+   88  cd lab9/lab9-1
+   89  rm -rf node_modules
+   90  npm install grunt-cli -g
+   91  npm install grunt --save-dev
+   92  npm install socket.io --save
+   93  grunt
+   94  npm install grunt-contrib-compass --save-dev
+   95  ls
+   96  grunt
+   97  cd dev
+   98  history > resumen_16_06_2014
+   99  compass create css
+  100  cd ..
+  101  grunt
+  102  history > resumen_16_06_2014.txt

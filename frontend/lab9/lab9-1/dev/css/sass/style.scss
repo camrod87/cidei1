@@ -1,0 +1,23 @@
+@import "compass/reset";
+@import "compass/css3";
+
+div#intro{
+	float: left;
+	width:100px;
+	border-right: 1px sollid #333;
+	height: 300px;
+	padding: 10px;
+	overflow: scroll-y; 
+}
+
+div#chat{
+	float: left;
+	width:400px;
+	height: 250px;
+	padding: 10px;
+	overflow: scroll-y; 
+}
+
+#data{
+	width: 200px;
+}
